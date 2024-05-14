@@ -1,9 +1,4 @@
-const {
-  createDeck,
-  shuffleDeck,
-  drawCard,
-  compareCards,
-} = require("./SAP_card1");
+const { createDeck, shuffleDeck, drawCard, compareCards } = require("./card");
 
 // Create a deck of cards
 const deck = createDeck();
